@@ -25,6 +25,11 @@
 ] @text.reference
 
 [
+  (entity_reference)
+  (numeric_character_reference)
+] @text.entity
+
+[
   (backslash_escape)
   (hard_line_break)
 ] @string.escape
