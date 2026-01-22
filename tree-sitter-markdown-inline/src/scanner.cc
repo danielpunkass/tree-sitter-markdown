@@ -26,7 +26,7 @@ namespace TreeSitterMarkdownInline {
     };
 
     // Determines if a character is punctuation as defined by the markdown spec.
-    bool is_punctuation(char c) {
+    bool is_punctuation(int32_t c) {
         return
             (c >= '!' && c <= '/') ||
             (c >= ':' && c <= '@') ||
