@@ -168,6 +168,9 @@ const bool paragraph_interrupt_symbols[] = {
     false, // NO_INDENTED_CHUNK,
     false, // ERROR,
     false, // TRIGGER_ERROR,
+    false, // TOKEN_EOF,
+    false, // MINUS_METADATA,
+    false, // PLUS_METADATA,
     true, // PIPE_TABLE_START,
     false, // PIPE_TABLE_LINE_ENDING,
 };
